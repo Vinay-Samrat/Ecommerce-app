@@ -1,0 +1,474 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "brandName": "Apple"
+    },
+    {
+      "id": 2,
+      "brandName": "Sony"
+    },
+    {
+      "id": 3,
+      "brandName": "Samsung"
+    },
+    {
+      "id": 4,
+      "brandName": "Carrier"
+    },
+    {
+      "id": 5,
+      "brandName": "Dell"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Mobile"
+    },
+    {
+      "id": 2,
+      "categoryName": "Electronics"
+    },
+    {
+      "id": 3,
+      "categoryName": "Appliances"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Apple iPhone",
+      "price": 8900,
+      "brandId": 1,
+      "categoryId": 1,
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "productName": "Apple iPad Pro",
+      "price": 12400,
+      "brandId": 1,
+      "categoryId": 2,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "productName": "Sony Camera",
+      "price": 4500,
+      "brandId": 2,
+      "categoryId": 2,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "productName": "Samsung Galaxy S21",
+      "price": 7700,
+      "brandId": 3,
+      "categoryId": 1,
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "productName": "Carrier Air Conditioner",
+      "price": 38000,
+      "brandId": 4,
+      "categoryId": 3,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "productName": "Dell XPS 13",
+      "price": 13500,
+      "brandId": 5,
+      "categoryId": 2,
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "productName": "Apple MacBook Pro",
+      "price": 20000,
+      "brandId": 1,
+      "categoryId": 2,
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "productName": "Samsung Smart TV",
+      "price": 5500,
+      "brandId": 3,
+      "categoryId": 2,
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "productName": "Sony PlayStation 5",
+      "price": 4900,
+      "brandId": 2,
+      "categoryId": 2,
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "productName": "Dell Inspiron Laptop",
+      "price": 8500,
+      "brandId": 5,
+      "categoryId": 2,
+      "rating": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "scott@test.com",
+      "password": "Scott123",
+      "fullName": "Vinay V",
+      "dateOfBirth": "2002-02-12",
+      "gender": "Male",
+      "country": "Japan",
+      "receiveNewsLetters": true,
+      "id": 1
+    },
+    {
+      "email": "vinayyvvjgj@gmail.com",
+      "password": "C00l000123",
+      "fullName": "samrat",
+      "dateOfBirth": "1995-10-15",
+      "gender": "Male",
+      "country": "India",
+      "receiveNewsLetters": true,
+      "id": 2
+    },
+    {
+      "email": "vinayvhjhj@gmail.com",
+      "password": "C00l000123",
+      "fullName": "dfdsfsf",
+      "dateOfBirth": "0333-03-21",
+      "gender": "Male",
+      "country": "India",
+      "receiveNewsLetters": true,
+      "id": 3
+    },
+    {
+      "email": "google@gmail.com",
+      "password": "Google123",
+      "fullName": "Google",
+      "dateOfBirth": "0002-02-12",
+      "gender": "Male",
+      "country": "India",
+      "receiveNewsLetters": true,
+      "id": 4
+    },
+    {
+      "email": "xfdsfsdfsfsfd@gmail.com",
+      "password": "Sam123456",
+      "fullName": "Sam",
+      "dateOfBirth": "0002-02-12",
+      "gender": "Male",
+      "country": "USA",
+      "receiveNewsLetters": true,
+      "id": 5
+    },
+    {
+      "email": "asdsadsadsadsa@gmail.com",
+      "password": "C00l000123",
+      "fullName": "Cool",
+      "dateOfBirth": "0002-02-12",
+      "gender": "Male",
+      "country": "India",
+      "receiveNewsLetters": true,
+      "id": 6
+    },
+    {
+      "email": "vinayvsamrat1234@gmail.com",
+      "password": "C00l000123",
+      "fullName": "Vinay Samrat",
+      "dateOfBirth": "0002-02-12",
+      "gender": "Male",
+      "country": "India",
+      "receiveNewsLetters": true,
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2,
+      "isPaymentCompleted": true
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 6
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 7
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 10
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 11
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 12
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 13
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 14
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 15
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 16
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 17
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 18
+    },
+    {
+      "userId": null,
+      "productId": 5,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 19
+    },
+    {
+      "userId": null,
+      "productId": 8,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 20
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 21
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 22
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 23
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 24
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 25
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 26
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 30
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 32
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 34
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 35
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 36
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 39
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 41
+    },
+    {
+      "userId": null,
+      "productId": 4,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 42
+    },
+    {
+      "userId": null,
+      "productId": 5,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 43
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 45
+    },
+    {
+      "userId": null,
+      "productId": 3,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 51
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 53
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 54
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 55
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 57
+    },
+    {
+      "userId": null,
+      "productId": 3,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 60
+    },
+    {
+      "userId": null,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 63
+    },
+    {
+      "userId": null,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 64
+    },
+    {
+      "userId": 7,
+      "productId": 2,
+      "quantity": 1,
+      "isPaymentCompleted": true,
+      "id": 65
+    },
+    {
+      "userId": 7,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 66
+    }
+  ]
+}

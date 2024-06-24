@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./navbar/Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Login from "./Login";
+import Dashboard from "./dashboard/Dashboard";
+import Register from "./Register";
+import NomatchPage from "./NomatchPage";
+import { UserContext } from "./UserContext";
+import React, { useState } from "react";
+import Store from "./Store";
 
 function App() {
+  let [user, setUser] = useState({
+    isLoggedin: false,
+    currentUserId: null,
+    currentUserName: null,
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <UserContext.Provider value={{ user, setUser }}>
+        <Router>
+          <div className="div">
+            <Navbar />
+          </div>
+
+          <Routes>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/store" element={<Store />} />
+
+            <Route path="*" element={<NomatchPage />} />
+          </Routes>
+        </Router>
+      </UserContext.Provider>
+    </>
   );
 }
 
