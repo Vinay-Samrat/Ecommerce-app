@@ -1,3 +1,27 @@
+# Ecommerce Project
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description
+
+A full-featured ecommerce web application built with React and Node.js and tailwindcss. This project includes user authentication, product listings, shopping cart functionality, and order management.
+
+## Features
+
+- User authentication and authorization
+- Product listing and search
+- Shopping cart functionality
+- Order processing and payment integration
+- Admin panel for managing products and orders
+
+## Installation
+
+To get a local copy up and running, follow these simple steps.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vinay-Samrat/Ecommerce-app.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
